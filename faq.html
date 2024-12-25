@@ -849,6 +849,87 @@
             </div>
           </div>
         </section>
+
+        <!-- FORMULAR -->
+        <section class="layout__section section">
+          <div class="section__header">
+            <div class="container">
+              <h1 class="section__title">Форма обратной связи</h1>
+            </div>
+          </div>
+          <div class="section__main">
+            <div class="container">
+              <div class="layout__formular">
+                <form
+                  class="layout__form layout__form_secondary form"
+                  action="index.html"
+                >
+                  <div class="form__item form__item_before">
+                    <input
+                      class="form__input"
+                      type="text"
+                      placeholder="ФИО*:"
+                      required
+                    />
+                    <symbol class="form__symbol">
+                      <svg class="form__ico">
+                        <use xlink:href="img/sprite.svg#user"></use>
+                      </svg>
+                    </symbol>
+                  </div>
+                  <div
+                    class="form__item form__item_secondary form__item_row form__item_before"
+                  >
+                    <textarea
+                      class="form__input form__input_textarea"
+                      placeholder="Суть Вашего вопроса"
+                      required
+                    ></textarea>
+                    <symbol class="form__symbol">
+                      <svg class="form__ico">
+                        <use xlink:href="img/sprite.svg#pen"></use>
+                      </svg>
+                    </symbol>
+                  </div>
+
+                  <div class="form__item form__item_before">
+                    <input
+                      class="form__input"
+                      type="phone"
+                      placeholder="Телефон *"
+                      required
+                    />
+                    <symbol class="form__symbol">
+                      <svg class="form__ico">
+                        <use xlink:href="img/sprite.svg#phone"></use>
+                      </svg>
+                    </symbol>
+                  </div>
+
+                  <div class="form__item form__item_before">
+                    <input
+                      class="form__input"
+                      type="text"
+                      placeholder="Когда Вам перезвонить?"
+                      required
+                    />
+                    <symbol class="form__symbol">
+                      <svg class="form__ico">
+                        <use xlink:href="img/sprite.svg#phone"></use>
+                      </svg>
+                    </symbol>
+                  </div>
+
+                  <div class="form__item">
+                    <button class="btn" typ="submit">
+                      <span class="btn__text">Отправить</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <!-- //middle -->
       <!-- partial:parts/_modal.html -->
@@ -1267,14 +1348,6 @@
             <a class="support__link" href="#">Политика конфиденциальности</a>
           </li>
         </ul>
-      </div>
-
-      <!-- Developer -->
-      <div class="footer__developer developer">
-        <span class="developer__text"
-          >Разработка сайта:
-          <a class="developer__link" href="#" target="_blank">miridea.ru</a>
-        </span>
       </div>
     </div>
   </div>
