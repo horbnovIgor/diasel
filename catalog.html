@@ -1,0 +1,2381 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- partial:parts/_head.html -->
+    <meta charset="utf-8" />
+<title>Diesel</title>
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1 , maximum-scale=1, user-scalable=0"
+/>
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="stylesheet" href="css/libs.min.css" />
+<link rel="stylesheet" href="css/main.css" />
+<link href="img/favicon.webp" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- partial -->
+  </head>
+  <body>
+    <div class="layout">
+      <!-- partial:parts/_header.html -->
+      <header class="layout__header header">
+  <div class="header__primary">
+    <div class="container">
+      <!-- Logo -->
+      <div class="header__logo logo">
+        <a class="logo__link" href="index.html">
+          <img
+            src="img/preview.jpg"
+            data-src="img/logo.jpg"
+            alt="image description"
+          />
+        </a>
+      </div>
+      <!-- Contact -->
+      <div class="header__contact contact contact_primary">
+        <ul class="contact__list">
+          <li class="contact__item">
+            <a class="contact__link" href="#">
+              <svg class="contact__ico">
+                <use xlink:href="img/sprite.svg#pin"></use>
+              </svg>
+              <span class="contact__text">Работаем по всей Росии</span>
+            </a>
+          </li>
+          <li class="contact__item">
+            <a class="contact__link" href="#">
+              <svg class="contact__ico">
+                <use xlink:href="img/sprite.svg#mail"></use>
+              </svg>
+              <span class="contact__text">info@diasel.ru</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="contact__socials socials">
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__ico">
+                <use xlink:href="img/sprite.svg#telegramm"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__ico">
+                <use xlink:href="img/sprite.svg#watsapp"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__ico">
+                <use xlink:href="img/sprite.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__ico">
+                <use xlink:href="img/sprite.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Contact -->
+      <div class="header__contact contact contact_secondary">
+        <ul class="contact__list">
+          <li class="contact__item">
+            <a class="contact__link" href="#">+7 (499) 391-39-59</a>
+          </li>
+          <li class="contact__item">
+            <a class="contact__link" href="#">8 (800) 444-50-97</a>
+          </li>
+          <li class="contact__item">
+            <a class="contact__link" href="#">+7 (929) 987-73-00</a>
+          </li>
+          <li class="contact__item">
+            <span class="contact__text">Бесплатный по России</span>
+          </li>
+        </ul>
+      </div>
+      <!-- Callback -->
+      <div class="header__callback callback">
+        <span
+          class="btn btn_secondary btn_tiny modal-init"
+          data-modalname="modal__layout_callback"
+        >
+          <span class="btn__text">Заказать звонок</span>
+        </span>
+      </div>
+      <!-- User -->
+      <div class="header__user user">
+        <ul class="user__list">
+          <li class="user__item user__item_burger">
+            <span class="user__link">
+              <svg class="user__ico">
+                <use xlink:href="img/sprite.svg#burger"></use>
+              </svg>
+            </span>
+          </li>
+          <li class="user__item">
+            <a class="user__link" href="#">
+              <svg class="user__ico">
+                <use xlink:href="img/sprite.svg#comparison"></use>
+              </svg>
+              <span class="user__value">0</span>
+            </a>
+          </li>
+          <li class="user__item">
+            <a class="user__link" href="#">
+              <svg class="user__ico">
+                <use xlink:href="img/sprite.svg#favorite"></use>
+              </svg>
+              <span class="user__value">0</span>
+            </a>
+          </li>
+          <li class="user__item">
+            <a class="user__link" href="#">
+              <svg class="user__ico">
+                <use xlink:href="img/sprite.svg#table"></use>
+              </svg>
+              <span class="user__text">Корзина</span>
+              <span class="user__value">0</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="header__secondary">
+    <div class="container">
+      <!-- Catalog -->
+      <div class="header__catalog catalog">
+        <div class="catalog__header">
+          <i class="catalog__symbol">
+            <svg class="catalog__ico">
+              <use xlink:href="img/sprite.svg#burger"></use>
+            </svg>
+            <svg class="catalog__ico">
+              <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+          </i>
+
+          <span class="catalog__title">Каталог</span>
+        </div>
+        <div class="catalog__main">
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">
+                <svg class="catalog__ico">
+                  <use xlink:href="img/sprite.svg#chevronRight"></use>
+                </svg>
+                <span class="catalog__link"
+                  >Очистка воды в загородном доме</span
+                >
+              </a>
+              <ul class="catalog__sublist">
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#">Готовые решения</a>
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >On-line подбор оборудования</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Сервисное обслуживание</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Очистка воды из скважины</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Очистка воды из колодца</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Очистка воды от железа</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#">Снижение жесткости</a>
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Замена засыпки фильтров</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">
+                <svg class="catalog__ico">
+                  <use xlink:href="img/sprite.svg#chevronRight"></use>
+                </svg>
+                <span class="catalog__link"
+                  >Очистка воды в загородном доме</span
+                >
+              </a>
+              <ul class="catalog__sublist">
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#">Готовые решения</a>
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >On-line подбор оборудования</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Сервисное обслуживание</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Очистка воды из скважины</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Очистка воды из колодца</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Очистка воды от железа</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#">Снижение жесткости</a>
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Замена засыпки фильтров</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="catalog__item">
+              <a class="catalog__link" href="#">
+                <svg class="catalog__ico">
+                  <use xlink:href="img/sprite.svg#chevronRight"></use>
+                </svg>
+                <span class="catalog__link"
+                  >Очистка воды в загородном доме</span
+                >
+              </a>
+              <ul class="catalog__sublist">
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#">Готовые решения</a>
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >On-line подбор оборудования</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Сервисное обслуживание</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Очистка воды из скважины</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Очистка воды из колодца</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Очистка воды от железа</a
+                  >
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#">Снижение жесткости</a>
+                </li>
+                <li class="catalog__subitem">
+                  <a class="catalog__sublink" href="#"
+                    >Замена засыпки фильтров</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Menu -->
+      <div class="header__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <span class="menu__link">Интерент-магазин</span>
+            <nav class="menu__nav nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">
+                    <picture class="nav__picture">
+                      <img
+                        src="img/preview.jpg"
+                        data-src="img/content/preview/preview__img01.jpg"
+                        alt="image description"
+                      />
+                    </picture>
+                    <span class="nav__text">Напорные корпуса</span>
+                  </a>
+                  <i class="nav__symbol">
+                    <svg class="nav__ico">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                    <svg class="nav__ico">
+                      <use xlink:href="img/sprite.svg#minus"></use>
+                    </svg>
+                  </i>
+                  <nav class="nav__subnav">
+                    <ul class="nav__sublist">
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext">Системы фильтрации</span>
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext">Системы фильтрации</span>
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext"
+                            >корпуса фильтров Canature</span
+                          >
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext"
+                            >нержавеющие напорные корпуса</span
+                          >
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">
+                    <picture class="nav__picture">
+                      <img
+                        src="img/preview.jpg"
+                        data-src="img/content/preview/preview__img01.jpg"
+                        alt="image description"
+                      />
+                    </picture>
+                    <span class="nav__text">Напорные корпуса</span>
+                  </a>
+                  <i class="nav__symbol">
+                    <svg class="nav__ico">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                    <svg class="nav__ico">
+                      <use xlink:href="img/sprite.svg#minus"></use>
+                    </svg>
+                  </i>
+                  <nav class="nav__subnav">
+                    <ul class="nav__sublist">
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext">Системы фильтрации</span>
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext">Системы фильтрации</span>
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext"
+                            >корпуса фильтров Canature</span
+                          >
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext"
+                            >нержавеющие напорные корпуса</span
+                          >
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">
+                    <picture class="nav__picture">
+                      <img
+                        src="img/preview.jpg"
+                        data-src="img/content/preview/preview__img01.jpg"
+                        alt="image description"
+                      />
+                    </picture>
+                    <span class="nav__text">Напорные корпуса</span>
+                  </a>
+                  <i class="nav__symbol">
+                    <svg class="nav__ico">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                    <svg class="nav__ico">
+                      <use xlink:href="img/sprite.svg#minus"></use>
+                    </svg>
+                  </i>
+                  <nav class="nav__subnav">
+                    <ul class="nav__sublist">
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext">Системы фильтрации</span>
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext">Системы фильтрации</span>
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext"
+                            >корпуса фильтров Canature</span
+                          >
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext"
+                            >нержавеющие напорные корпуса</span
+                          >
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">
+                    <picture class="nav__picture">
+                      <img
+                        src="img/preview.jpg"
+                        data-src="img/content/preview/preview__img01.jpg"
+                        alt="image description"
+                      />
+                    </picture>
+                    <span class="nav__text">Напорные корпуса</span>
+                  </a>
+                  <i class="nav__symbol">
+                    <svg class="nav__ico">
+                      <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                    <svg class="nav__ico">
+                      <use xlink:href="img/sprite.svg#minus"></use>
+                    </svg>
+                  </i>
+                  <nav class="nav__subnav">
+                    <ul class="nav__sublist">
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext">Системы фильтрации</span>
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext">Системы фильтрации</span>
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext"
+                            >корпуса фильтров Canature</span
+                          >
+                        </a>
+                      </li>
+                      <li class="nav__subitem">
+                        <a href="#" class="nav__sublink">
+                          <picture class="nav__subpicture">
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/preview/preview__img02.jpg"
+                              alt="image description"
+                            />
+                          </picture>
+                          <span class="nav__subtext"
+                            >нержавеющие напорные корпуса</span
+                          >
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </li>
+              </ul>
+            </nav>
+          </li>
+          <li class="menu__item"><a href="#" class="menu__link">Статьи</a></li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">О компании</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Наши работы</a>
+          </li>
+          <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Search -->
+      <div class="header__search search">
+        <form class="search__form" action="index.html">
+          <div class="form__item form__item_tiny form__item_after">
+            <div class="form__main">
+              <input
+                class="form__input"
+                type="text"
+                placeholder="Поиск по сайту ..."
+                required
+              />
+            </div>
+            <div class="form__symbol">
+              <svg class="form__ico">
+                <use xlink:href="img/sprite.svg#search"></use>
+              </svg>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <!-- partial -->
+      <div class="layout__breadcrumbs breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">
+                <svg class="breadcrumbs__ico">
+                  <use xlink:href="img/sprite.svg#home"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Интернет-магазин</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Клапаны управления</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <span class="breadcrumbs__link">Клапаны управления Autotrol</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <main class="layout__main">
+        <!-- PRODUCTS -->
+        <section class="layout__section section">
+          <!-- ASIDE -->
+          <section class="layout__section section">
+            <div class="container container_sidebar">
+              <aside class="section__sidebar sidebar">
+                <div class="sidebar__group group">
+                  <div class="group__header">
+                    <h3 class="group__title">Фильтры</h3>
+                  </div>
+
+                  <div class="group__main">
+                    <div class="sidebar__filter filter">
+                      <div class="filter__list">
+                        <div class="filter__item">
+                          <div class="filter__header">
+                            <span class="filter__title">По цене, руб:</span>
+                          </div>
+                          <div class="filter__main">
+                            <div class="form__item">
+                              <div class="form__range range">
+                                <div class="range__form">
+                                  <div class="range__item range__item_min">
+                                    <input
+                                      class="range__input form__input range__input_min"
+                                      type="text"
+                                      placeholder="0"
+                                    />
+                                  </div>
+                                  <div class="range__item range__item_max">
+                                    <input
+                                      class="range__input form__input range__input_max"
+                                      type="text"
+                                      placeholder="0"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="range__slider"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="filter__item">
+                          <div class="filter__header">
+                            <span class="filter__title">Название фильтра:</span>
+                          </div>
+                          <div class="filter__main">
+                            <div class="form__item">
+                              <div class="checkbox">
+                                <label class="checkbox__label">
+                                  <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="filter_name"
+                                    required
+                                  />
+                                  <svg
+                                    class="checkbox__ico checkbox__ico_before"
+                                  >
+                                    <use
+                                      xlink:href="img/sprite.svg#checkboxBefore"
+                                    ></use>
+                                  </svg>
+                                  <svg
+                                    class="checkbox__ico checkbox__ico_after"
+                                  >
+                                    <use
+                                      xlink:href="img/sprite.svg#checkboxAfter"
+                                    ></use>
+                                  </svg>
+                                  <span
+                                    class="checkbox__text checkbox__text_secondary"
+                                    >Пример наименования</span
+                                  >
+                                </label>
+                              </div>
+                            </div>
+                            <div class="form__item">
+                              <div class="checkbox">
+                                <label class="checkbox__label">
+                                  <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="filter_name"
+                                    required
+                                  />
+                                  <svg
+                                    class="checkbox__ico checkbox__ico_before"
+                                  >
+                                    <use
+                                      xlink:href="img/sprite.svg#checkboxBefore"
+                                    ></use>
+                                  </svg>
+                                  <svg
+                                    class="checkbox__ico checkbox__ico_after"
+                                  >
+                                    <use
+                                      xlink:href="img/sprite.svg#checkboxAfter"
+                                    ></use>
+                                  </svg>
+                                  <span
+                                    class="checkbox__text checkbox__text_secondary"
+                                    >Пример наименования</span
+                                  >
+                                </label>
+                              </div>
+                            </div>
+                            <div class="form__item">
+                              <div class="checkbox">
+                                <label class="checkbox__label">
+                                  <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="filter_name"
+                                    required
+                                  />
+                                  <svg
+                                    class="checkbox__ico checkbox__ico_before"
+                                  >
+                                    <use
+                                      xlink:href="img/sprite.svg#checkboxBefore"
+                                    ></use>
+                                  </svg>
+                                  <svg
+                                    class="checkbox__ico checkbox__ico_after"
+                                  >
+                                    <use
+                                      xlink:href="img/sprite.svg#checkboxAfter"
+                                    ></use>
+                                  </svg>
+                                  <span
+                                    class="checkbox__text checkbox__text_secondary"
+                                    >Пример наименования</span
+                                  >
+                                </label>
+                              </div>
+                            </div>
+                            <div class="form__item">
+                              <div class="checkbox">
+                                <label class="checkbox__label">
+                                  <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="filter_name"
+                                    required
+                                  />
+                                  <svg
+                                    class="checkbox__ico checkbox__ico_before"
+                                  >
+                                    <use
+                                      xlink:href="img/sprite.svg#checkboxBefore"
+                                    ></use>
+                                  </svg>
+                                  <svg
+                                    class="checkbox__ico checkbox__ico_after"
+                                  >
+                                    <use
+                                      xlink:href="img/sprite.svg#checkboxAfter"
+                                    ></use>
+                                  </svg>
+                                  <span
+                                    class="checkbox__text checkbox__text_secondary"
+                                    >Пример наименования</span
+                                  >
+                                </label>
+                              </div>
+                            </div>
+                            <div class="form__item">
+                              <div class="checkbox">
+                                <label class="checkbox__label">
+                                  <input
+                                    class="checkbox__input"
+                                    type="checkbox"
+                                    name="filter_name"
+                                    required
+                                  />
+                                  <svg
+                                    class="checkbox__ico checkbox__ico_before"
+                                  >
+                                    <use
+                                      xlink:href="img/sprite.svg#checkboxBefore"
+                                    ></use>
+                                  </svg>
+                                  <svg
+                                    class="checkbox__ico checkbox__ico_after"
+                                  >
+                                    <use
+                                      xlink:href="img/sprite.svg#checkboxAfter"
+                                    ></use>
+                                  </svg>
+                                  <span
+                                    class="checkbox__text checkbox__text_secondary"
+                                    >Пример наименования</span
+                                  >
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="sidebar__group group">
+                  <div class="group__header">
+                    <h3 class="group__title">Категории</h3>
+                  </div>
+
+                  <div class="group__main">
+                    <div class="sidebar__categories categories">
+                      <div class="categories__list">
+                        <div class="categories__item">
+                          <div class="categories__header">
+                            <a class="categories__link" href="#">
+                              <span class="categories__text"
+                                >Системы фильтрации</span
+                              >
+                            </a>
+                          </div>
+                        </div>
+                        <div class="categories__item">
+                          <div class="categories__header">
+                            <a class="categories__link" href="#">
+                              <span class="categories__text"
+                                >Напорные корпуса</span
+                              >
+                            </a>
+                            <symbol class="categories__symbol">
+                              <svg class="categories__ico">
+                                <use
+                                  xlink:href="img/sprite.svg#chevronBottom"
+                                ></use>
+                              </svg>
+                            </symbol>
+                          </div>
+                          <div class="categories__main">
+                            <ul class="categories__sublist">
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Гидроаккумуляторы</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Насосы и насосные станции</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Дозирующие системы</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Компрессоры</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Фильтрующие загрузки</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Комплектующие к установкам обратного
+                                  осмоса</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="categories__item">
+                          <div class="categories__header">
+                            <a class="categories__link" href="#">
+                              <span class="categories__text"
+                                >Клапаны управления</span
+                              >
+                            </a>
+                            <symbol class="categories__symbol">
+                              <svg class="categories__ico">
+                                <use
+                                  xlink:href="img/sprite.svg#chevronBottom"
+                                ></use>
+                              </svg>
+                            </symbol>
+                          </div>
+                          <div class="categories__main">
+                            <ul class="categories__sublist">
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Гидроаккумуляторы</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Насосы и насосные станции</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Дозирующие системы</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Компрессоры</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Фильтрующие загрузки</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Комплектующие к установкам обратного
+                                  осмоса</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="categories__item">
+                          <div class="categories__header">
+                            <a class="categories__link" href="#">
+                              <span class="categories__text">Компрессоры</span>
+                            </a>
+                            <symbol class="categories__symbol">
+                              <svg class="categories__ico">
+                                <use
+                                  xlink:href="img/sprite.svg#chevronBottom"
+                                ></use>
+                              </svg>
+                            </symbol>
+                          </div>
+                          <div class="categories__main">
+                            <ul class="categories__sublist">
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Гидроаккумуляторы</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Насосы и насосные станции</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Дозирующие системы</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Компрессоры</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Фильтрующие загрузки</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Комплектующие к установкам обратного
+                                  осмоса</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="categories__item">
+                          <div class="categories__header">
+                            <a class="categories__link" href="#">
+                              <span class="categories__text"
+                                >Фильтрующие загрузки</span
+                              >
+                            </a>
+                            <symbol class="categories__symbol">
+                              <svg class="categories__ico">
+                                <use
+                                  xlink:href="img/sprite.svg#chevronBottom"
+                                ></use>
+                              </svg>
+                            </symbol>
+                          </div>
+                          <div class="categories__main">
+                            <ul class="categories__sublist">
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Гидроаккумуляторы</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Насосы и насосные станции</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Дозирующие системы</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Компрессоры</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Фильтрующие загрузки</a
+                                >
+                              </li>
+                              <li class="categories__subitem">
+                                <a class="categories__sublink" href="#"
+                                  >Комплектующие к установкам обратного
+                                  осмоса</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="categories__item">
+                          <div class="categories__header">
+                            <a class="categories__link" href="#">
+                              <span class="categories__text"
+                                >Дозирующие системы</span
+                              >
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </aside>
+
+              <div class="section__main">
+                <div class="section__subsection subsection">
+                  <div class="subsection__header">
+                    <h2 class="subsection__title">
+                      Клапаны управления Autotrol
+                    </h2>
+                  </div>
+                  <div class="subsection__filter">
+                    <div class="subsection__sorting sorting">
+                      <span class="sorting__title">Сортировать по:</span>
+                      <ul class="sorting__list">
+                        <li class="sorting__item sorting__item_active">
+                          <span class="sorting__text">умолчанию</span>
+                        </li>
+                        <li class="sorting__item">
+                          <span class="sorting__text">цене</span>
+                          <svg class="sorting__ico">
+                            <use xlink:href="img/sprite.svg#triangle"></use>
+                          </svg>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="subsection__view view">
+                      <span class="view__title">Товаров:</span>
+                      <span class="view__value">42</span>
+                    </div>
+                  </div>
+                  <div class="subsection__main">
+                    <div class="layout__products products">
+                      <div class="products__list">
+                        <div class="products__item">
+                          <div class="products__tags tags">
+                            <ul class="tags__list">
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#favorite"
+                                  ></use>
+                                </svg>
+                              </li>
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#comparison"
+                                  ></use>
+                                </svg>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="products__media">
+                            <a class="products__link" href="#">
+                              <img
+                                src="img/preview.jpg"
+                                data-src="img/content/products/products__img01.jpg"
+                                alt="image description"
+                              />
+                            </a>
+                          </div>
+                          <div class="products__layout">
+                            <div class="products__main">
+                              <a class="products__title h4" href="#"
+                                >Автоматический клапан Magnum Cv 742 SN HWB</a
+                              >
+                              <span class="products__text"
+                                >Клапаны Magnum Cv (1,5"). Управление засыпными
+                                фильтрами, а также фильтрами умягчения диаметром
+                                от 14" до 36". Количество циклов–3.</span
+                              >
+                            </div>
+                            <div class="products__footer">
+                              <div class="products__price price">
+                                <span class="price__text">136 300 руб</span>
+                              </div>
+                              <div class="products__table">
+                                <a class="btn btn_tiny" href="#">
+                                  <svg class="btn__ico">
+                                    <use
+                                      xlink:href="img/sprite.svg#table"
+                                    ></use>
+                                  </svg>
+                                  <span class="btn__text">Добавить</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__item">
+                          <div class="products__tags tags">
+                            <ul class="tags__list">
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#favorite"
+                                  ></use>
+                                </svg>
+                              </li>
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#comparison"
+                                  ></use>
+                                </svg>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="products__media">
+                            <a class="products__link" href="#">
+                              <img
+                                src="img/preview.jpg"
+                                data-src="img/content/products/products__img02.jpg"
+                                alt="image description"
+                              />
+                            </a>
+                          </div>
+                          <div class="products__layout">
+                            <div class="products__main">
+                              <a class="products__title h4" href="#"
+                                >Автоматический клапан Magnum Cv 742 SN HWB</a
+                              >
+                              <span class="products__text"
+                                >Клапаны Magnum Cv (1,5"). Управление засыпными
+                                фильтрами, а также фильтрами умягчения диаметром
+                                от 14" до 36". Количество циклов–3.</span
+                              >
+                            </div>
+                            <div class="products__footer">
+                              <div class="products__price price">
+                                <span class="price__text">136 300 руб</span>
+                              </div>
+                              <div class="products__table">
+                                <a class="btn btn_tiny" href="#">
+                                  <svg class="btn__ico">
+                                    <use
+                                      xlink:href="img/sprite.svg#table"
+                                    ></use>
+                                  </svg>
+                                  <span class="btn__text">Добавить</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__item">
+                          <div class="products__tags tags">
+                            <ul class="tags__list">
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#favorite"
+                                  ></use>
+                                </svg>
+                              </li>
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#comparison"
+                                  ></use>
+                                </svg>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="products__media">
+                            <a class="products__link" href="#">
+                              <img
+                                src="img/preview.jpg"
+                                data-src="img/content/products/products__img01.jpg"
+                                alt="image description"
+                              />
+                            </a>
+                          </div>
+                          <div class="products__layout">
+                            <div class="products__main">
+                              <a class="products__title h4" href="#"
+                                >Автоматический клапан Magnum Cv 742 SN HWB</a
+                              >
+                              <span class="products__text"
+                                >Клапаны Magnum Cv (1,5"). Управление засыпными
+                                фильтрами, а также фильтрами умягчения диаметром
+                                от 14" до 36". Количество циклов–3.</span
+                              >
+                            </div>
+                            <div class="products__footer">
+                              <div class="products__price price">
+                                <span class="price__text">136 300 руб</span>
+                              </div>
+                              <div class="products__table">
+                                <a class="btn btn_tiny" href="#">
+                                  <svg class="btn__ico">
+                                    <use
+                                      xlink:href="img/sprite.svg#table"
+                                    ></use>
+                                  </svg>
+                                  <span class="btn__text">Добавить</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__item">
+                          <div class="products__tags tags">
+                            <ul class="tags__list">
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#favorite"
+                                  ></use>
+                                </svg>
+                              </li>
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#comparison"
+                                  ></use>
+                                </svg>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="products__media">
+                            <a class="products__link" href="#">
+                              <img
+                                src="img/preview.jpg"
+                                data-src="img/content/products/products__img01.jpg"
+                                alt="image description"
+                              />
+                            </a>
+                          </div>
+                          <div class="products__layout">
+                            <div class="products__main">
+                              <a class="products__title h4" href="#"
+                                >Автоматический клапан Magnum Cv 742 SN HWB</a
+                              >
+                              <span class="products__text"
+                                >Клапаны Magnum Cv (1,5"). Управление засыпными
+                                фильтрами, а также фильтрами умягчения диаметром
+                                от 14" до 36". Количество циклов–3.</span
+                              >
+                            </div>
+                            <div class="products__footer">
+                              <div class="products__price price">
+                                <span class="price__text">136 300 руб</span>
+                              </div>
+                              <div class="products__table">
+                                <a class="btn btn_tiny" href="#">
+                                  <svg class="btn__ico">
+                                    <use
+                                      xlink:href="img/sprite.svg#table"
+                                    ></use>
+                                  </svg>
+                                  <span class="btn__text">Добавить</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__item">
+                          <div class="products__tags tags">
+                            <ul class="tags__list">
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#favorite"
+                                  ></use>
+                                </svg>
+                              </li>
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#comparison"
+                                  ></use>
+                                </svg>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="products__media">
+                            <a class="products__link" href="#">
+                              <img
+                                src="img/preview.jpg"
+                                data-src="img/content/products/products__img02.jpg"
+                                alt="image description"
+                              />
+                            </a>
+                          </div>
+                          <div class="products__layout">
+                            <div class="products__main">
+                              <a class="products__title h4" href="#"
+                                >Автоматический клапан Magnum Cv 742 SN HWB</a
+                              >
+                              <span class="products__text"
+                                >Клапаны Magnum Cv (1,5"). Управление засыпными
+                                фильтрами, а также фильтрами умягчения диаметром
+                                от 14" до 36". Количество циклов–3.</span
+                              >
+                            </div>
+                            <div class="products__footer">
+                              <div class="products__price price">
+                                <span class="price__text">136 300 руб</span>
+                              </div>
+                              <div class="products__table">
+                                <a class="btn btn_tiny" href="#">
+                                  <svg class="btn__ico">
+                                    <use
+                                      xlink:href="img/sprite.svg#table"
+                                    ></use>
+                                  </svg>
+                                  <span class="btn__text">Добавить</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__item">
+                          <div class="products__tags tags">
+                            <ul class="tags__list">
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#favorite"
+                                  ></use>
+                                </svg>
+                              </li>
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#comparison"
+                                  ></use>
+                                </svg>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="products__media">
+                            <a class="products__link" href="#">
+                              <img
+                                src="img/preview.jpg"
+                                data-src="img/content/products/products__img01.jpg"
+                                alt="image description"
+                              />
+                            </a>
+                          </div>
+                          <div class="products__layout">
+                            <div class="products__main">
+                              <a class="products__title h4" href="#"
+                                >Автоматический клапан Magnum Cv 742 SN HWB</a
+                              >
+                              <span class="products__text"
+                                >Клапаны Magnum Cv (1,5"). Управление засыпными
+                                фильтрами, а также фильтрами умягчения диаметром
+                                от 14" до 36". Количество циклов–3.</span
+                              >
+                            </div>
+                            <div class="products__footer">
+                              <div class="products__price price">
+                                <span class="price__text">136 300 руб</span>
+                              </div>
+                              <div class="products__table">
+                                <a class="btn btn_tiny" href="#">
+                                  <svg class="btn__ico">
+                                    <use
+                                      xlink:href="img/sprite.svg#table"
+                                    ></use>
+                                  </svg>
+                                  <span class="btn__text">Добавить</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__item">
+                          <div class="products__tags tags">
+                            <ul class="tags__list">
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#favorite"
+                                  ></use>
+                                </svg>
+                              </li>
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#comparison"
+                                  ></use>
+                                </svg>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="products__media">
+                            <a class="products__link" href="#">
+                              <img
+                                src="img/preview.jpg"
+                                data-src="img/content/products/products__img02.jpg"
+                                alt="image description"
+                              />
+                            </a>
+                          </div>
+                          <div class="products__layout">
+                            <div class="products__main">
+                              <a class="products__title h4" href="#"
+                                >Автоматический клапан Magnum Cv 742 SN HWB</a
+                              >
+                              <span class="products__text"
+                                >Клапаны Magnum Cv (1,5"). Управление засыпными
+                                фильтрами, а также фильтрами умягчения диаметром
+                                от 14" до 36". Количество циклов–3.</span
+                              >
+                            </div>
+                            <div class="products__footer">
+                              <div class="products__price price">
+                                <span class="price__text">136 300 руб</span>
+                              </div>
+                              <div class="products__table">
+                                <a class="btn btn_tiny" href="#">
+                                  <svg class="btn__ico">
+                                    <use
+                                      xlink:href="img/sprite.svg#table"
+                                    ></use>
+                                  </svg>
+                                  <span class="btn__text">Добавить</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__item">
+                          <div class="products__tags tags">
+                            <ul class="tags__list">
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#favorite"
+                                  ></use>
+                                </svg>
+                              </li>
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#comparison"
+                                  ></use>
+                                </svg>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="products__media">
+                            <a class="products__link" href="#">
+                              <img
+                                src="img/preview.jpg"
+                                data-src="img/content/products/products__img01.jpg"
+                                alt="image description"
+                              />
+                            </a>
+                          </div>
+                          <div class="products__layout">
+                            <div class="products__main">
+                              <a class="products__title h4" href="#"
+                                >Автоматический клапан Magnum Cv 742 SN HWB</a
+                              >
+                              <span class="products__text"
+                                >Клапаны Magnum Cv (1,5"). Управление засыпными
+                                фильтрами, а также фильтрами умягчения диаметром
+                                от 14" до 36". Количество циклов–3.</span
+                              >
+                            </div>
+                            <div class="products__footer">
+                              <div class="products__price price">
+                                <span class="price__text">136 300 руб</span>
+                              </div>
+                              <div class="products__table">
+                                <a class="btn btn_tiny" href="#">
+                                  <svg class="btn__ico">
+                                    <use
+                                      xlink:href="img/sprite.svg#table"
+                                    ></use>
+                                  </svg>
+                                  <span class="btn__text">Добавить</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="products__item">
+                          <div class="products__tags tags">
+                            <ul class="tags__list">
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#favorite"
+                                  ></use>
+                                </svg>
+                              </li>
+                              <li class="tags__item">
+                                <svg class="tags__ico">
+                                  <use
+                                    xlink:href="img/sprite.svg#comparison"
+                                  ></use>
+                                </svg>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="products__media">
+                            <a class="products__link" href="#">
+                              <img
+                                src="img/preview.jpg"
+                                data-src="img/content/products/products__img02.jpg"
+                                alt="image description"
+                              />
+                            </a>
+                          </div>
+                          <div class="products__layout">
+                            <div class="products__main">
+                              <a class="products__title h4" href="#"
+                                >Автоматический клапан Magnum Cv 742 SN HWB</a
+                              >
+                              <span class="products__text"
+                                >Клапаны Magnum Cv (1,5"). Управление засыпными
+                                фильтрами, а также фильтрами умягчения диаметром
+                                от 14" до 36". Количество циклов–3.</span
+                              >
+                            </div>
+                            <div class="products__footer">
+                              <div class="products__price price">
+                                <span class="price__text">136 300 руб</span>
+                              </div>
+                              <div class="products__table">
+                                <a class="btn btn_tiny" href="#">
+                                  <svg class="btn__ico">
+                                    <use
+                                      xlink:href="img/sprite.svg#table"
+                                    ></use>
+                                  </svg>
+                                  <span class="btn__text">Добавить</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="subsection__footer">
+                    <div class="layout__load">
+                      <a href="#" class="btn">
+                        <span class="btn__text">Показать еще</span>
+                      </a>
+                    </div>
+                    <div class="layout__navigation navigation">
+                      <button class="navigation__button">
+                        <span class="navigation__text">Назад</span>
+                      </button>
+                      <ul class="navigation__pagination pagination">
+                        <li class="pagination__item pagination__item_active">
+                          1
+                        </li>
+                        <li class="pagination__item">2</li>
+                        <li class="pagination__item">...</li>
+                        <li class="pagination__item">10</li>
+                        <li class="pagination__item">11</li>
+                      </ul>
+                      <button class="navigation__button">
+                        <span class="navigation__text">Вперед</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ARTICLE -->
+                <div class="section__subsection subsection">
+                  <div class="subsection__header">
+                    <h2 class="subsection__title">
+                      Управляющие клапаны и контроллеры
+                    </h2>
+                  </div>
+                  <div class="subsection__main">
+                    <!-- Article -->
+                    <div class="layout__article article">
+                      <div class="article__main">
+                        <div class="wysiwyg">
+                          <p>
+                            Назначением контролеров или управляющих клапанов
+                            является управление потоками воды в системе
+                            водоподготовки. Управляющий клапан отвечает за
+                            процесс промывки фильтров, а также контролирует
+                            время очистки воды и ее подачу  к потребителю. Для
+                            полной автоматизации всех процессов промывки и
+                            очистки системы водоподготовки, контролеры
+                            предусматривают возможность программирования, что
+                            существенно облегчает процесс эксплуатации систем
+                            водоподготовки.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section__subsection subsection">
+                  <div class="subsection__header">
+                    <h2 class="subsection__title">
+                      Автоматические управляющие клапаны Autotrol (США)
+                    </h2>
+                  </div>
+                  <div class="subsection__main">
+                    <!-- Gallery -->
+                    <div class="layout__gallery gallery">
+                      <ul class="gallery__list">
+                        <li class="gallery__item">
+                          <a
+                            class="gallery__link"
+                            href="img/content/products/products__img01.jpg"
+                            data-fancybox="gallery__link"
+                          >
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/products/products__img01.jpg"
+                              alt="image description"
+                            />
+                          </a>
+                        </li>
+                        <li class="gallery__item">
+                          <a
+                            class="gallery__link"
+                            href="img/content/products/products__img02.jpg"
+                            data-fancybox="gallery__link"
+                          >
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/products/products__img02.jpg"
+                              alt="image description"
+                            />
+                          </a>
+                        </li>
+                        <li class="gallery__item">
+                          <a
+                            class="gallery__link"
+                            href="img/content/products/products__img03.jpg"
+                            data-fancybox="gallery__link"
+                          >
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/products/products__img03.jpg"
+                              alt="image description"
+                            />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section__subsection subsection">
+                  <div class="subsection__main">
+                    <!-- Article -->
+                    <div class="layout__article article">
+                      <div class="article__main">
+                        <div class="wysiwyg">
+                          <p>
+                            Автоматические клапаны Autotrol® устанавливаются на
+                            фильтры для систем водоподготовки диаметром до 36"
+                            (900 мм)  и обеспечивают производительность до 20
+                            м3/час. В зависимости от требуемой
+                            производительности системы, состава исходной воды,
+                            требований к очищенной воде и специальных требований
+                            заказчика возможна поставка автоматических фильтров
+                            различных конфигураций с наиболее подходящими для
+                            данного случая управляющими клапанами марки
+                            Autotrol®.
+                          </p>
+                          <h4>
+                            Преимуществами автоматических клапанов Autotrol
+                            является:
+                          </h4>
+                          <ul>
+                            <li>новый современный дизайн;</li>
+                            <li>
+                              универсальность – подходит для фильтров различного
+                              назначения;
+                            </li>
+                            <li>легкость программирования;</li>
+                            <li>
+                              мобильность (контроллер снимается с фильтра и
+                              устанавливается в любом другом месте);
+                            </li>
+                            <li>встроенный стерилизатор смолы;</li>
+                            <li>сигнализатор наличия соли в баке;</li>
+                            <li>автономная память на 8-10 часов;</li>
+                            <li>
+                              управление внешними устройствами и многое другое.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section__subsection subsection">
+                  <div class="subsection__main">
+                    <!-- Gallery -->
+                    <div class="layout__gallery gallery">
+                      <ul class="gallery__list">
+                        <li class="gallery__item">
+                          <a
+                            class="gallery__link"
+                            href="img/content/products/products__img01.jpg"
+                            data-fancybox="gallery__link"
+                          >
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/products/products__img01.jpg"
+                              alt="image description"
+                            />
+                          </a>
+                        </li>
+                        <li class="gallery__item">
+                          <a
+                            class="gallery__link"
+                            href="img/content/products/products__img02.jpg"
+                            data-fancybox="gallery__link"
+                          >
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/products/products__img02.jpg"
+                              alt="image description"
+                            />
+                          </a>
+                        </li>
+                        <li class="gallery__item">
+                          <a
+                            class="gallery__link"
+                            href="img/content/products/products__img03.jpg"
+                            data-fancybox="gallery__link"
+                          >
+                            <img
+                              src="img/preview.jpg"
+                              data-src="img/content/products/products__img03.jpg"
+                              alt="image description"
+                            />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="section__subsection subsection">
+                  <div class="subsection__main">
+                    <!-- Article -->
+                    <div class="layout__article article">
+                      <div class="article__main">
+                        <div class="wysiwyg">
+                          <p>
+                            <strong>Контроллеры 740 –</strong> простой
+                            контроллер с возможностью установки
+                            регенерации/промывки с периодичностью от 2-х раз  в
+                            сутки до 99-ти дней.Контроллер 740 может
+                            использоваться как для фильтров умягчения, так и для
+                            засыпных фильтров (обезжелезивания, осадочных,
+                            угольных). Также контроллер предусматривает функцию
+                            регенерации по сигналу  с управляющего
+                            устройства.Контроллер 740 наиболее подходит для
+                            бытовых и промышленных систем малой
+                            производительности (объемом загрузки до 84 л).
+                          </p>
+                          <p>
+                            <strong>Контроллер 760 –</strong> контроллер со
+                            встроенным расходомером, что обеспечивает большую
+                            экономичность и эффективность работы. Контроллер 760
+                            включает в себя функцию 28-мидневного резерва с
+                            возможностью изменения времени начала
+                            регенерации.Контроллер 760 наиболее подходит для
+                            бытовых и промышленных систем малой
+                            производительности (объемом загрузки до 84 л).
+                          </p>
+                          <p>
+                            <strong>Контроллер 742 –</strong> контроллер,
+                            позволяющий программировать длительность каждого из
+                            циклов работы. Кроме того  в контроллере
+                            предусмотрена функция установки интервала
+                            обслуживания (Maintance IntervalTM). Устанавливается
+                            на все серии клапанов.
+                          </p>
+                          <p>
+                            <strong>Контроллер 762 –</strong> контроллер снабжен
+                            максимальным набором функций: полностью
+                            программируемые времена циклов работы, функция
+                            запрета регенерации при многобаковом управлении,
+                            двойная последовательная или параллельная система,
+                            программируемый выходной сигнал и т.д. Контроллер
+                            762 идеален для использования в промышленных
+                            системах большой производительности.
+                          </p>
+                          <p>
+                            <strong>Контроллер 764 TWIN –</strong> контроллер
+                            используется в альтернативных и параллельных
+                            системах непрерывного действия.
+                          </p>
+                          <p>
+                            В нашей компании Вы сможете приобрести клапаны
+                            управления Autotrol, в том числе Autotrol 255 и
+                            Autotrol 268 недорого.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </main>
+      <!-- //middle -->
+      <!-- partial:parts/_modal.html -->
+      <div class="layout__modal modal">
+  <!-- // CALLBACK MODAL  -->
+  <div class="modal__layout modal__layout_callback">
+    <!-- Modal header -->
+    <div class="modal__header">
+      <div class="modal__title title">
+        <span class="title__text h3">Заказать звонок</span>
+      </div>
+      <div class="modal__action action">
+        <svg class="action__ico">
+          <use xlink:href="img/sprite.svg#close"></use>
+        </svg>
+      </div>
+    </div>
+    <!-- Modal main -->
+    <div class="modal__main">
+      <div class="layout__formular p-0">
+        <form class="layout__form form" action="index.html">
+          <div class="form__item form__item_before">
+            <input
+              class="form__input"
+              type="text"
+              placeholder="ФИО*:"
+              required
+            />
+            <symbol class="form__symbol">
+              <svg class="form__ico">
+                <use xlink:href="img/sprite.svg#user"></use>
+              </svg>
+            </symbol>
+          </div>
+          <div class="form__item form__item_before">
+            <input
+              class="form__input"
+              type="phone"
+              placeholder="Телефон *"
+              required
+            />
+            <symbol class="form__symbol">
+              <svg class="form__ico">
+                <use xlink:href="img/sprite.svg#phone"></use>
+              </svg>
+            </symbol>
+          </div>
+
+          <div class="form__item form__item_before">
+            <input
+              class="form__input"
+              type="text"
+              placeholder="Когда Вам перезвонить?"
+              required
+            />
+            <symbol class="form__symbol">
+              <svg class="form__ico">
+                <use xlink:href="img/sprite.svg#phone"></use>
+              </svg>
+            </symbol>
+          </div>
+
+          <div class="form__item form__item_row form__item_before">
+            <textarea
+              class="form__input form__input_textarea"
+              placeholder="Суть Вашего вопроса"
+              required
+            ></textarea>
+            <symbol class="form__symbol">
+              <svg class="form__ico">
+                <use xlink:href="img/sprite.svg#pen"></use>
+              </svg>
+            </symbol>
+          </div>
+
+          <div class="form__item">
+            <button class="btn" typ="submit">
+              <span class="btn__text">Отправить</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- partial -->
+      <!-- partial:parts/_footer.html -->
+      <footer class="layout__footer footer">
+  <div class="footer__primary">
+    <div class="container">
+      <!-- Menu -->
+      <div class="footer__menu menu">
+        <div class="menu__list">
+          <div class="menu__item">
+            <div class="menu__header">
+              <span class="menu__title">Меню</span>
+              <svg class="menu__ico">
+                <use xlink:href="img/sprite.svg#chevronBottom"></use>
+              </svg>
+            </div>
+            <div class="menu__main">
+              <nav class="menu__nav nav">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Каталог</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Интернет-магазин</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Статьи</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">О компании</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Наши работы</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Отзывы</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="menu__item">
+            <div class="menu__header">
+              <span class="menu__title">Очистка воды в загородном доме</span>
+              <svg class="menu__ico">
+                <use xlink:href="img/sprite.svg#chevronBottom"></use>
+              </svg>
+            </div>
+            <div class="menu__main">
+              <nav class="menu__nav nav">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Каталог</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Готовые решения</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#"
+                      >On-line подбор оборудования</a
+                    >
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Сервисное обслуживание</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Очистка воды из скважины</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Очистка воды из колодца</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Очистка воды от железа</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Снижение жесткости</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Замена засыпки фильтров</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="menu__item">
+            <div class="menu__header">
+              <span class="menu__title">Водоподготовка</span>
+              <svg class="menu__ico">
+                <use xlink:href="img/sprite.svg#chevronBottom"></use>
+              </svg>
+            </div>
+            <div class="menu__main">
+              <nav class="menu__nav nav">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Котельные, ТЭЦ</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Многоквартирные дома, ЖКХ</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Коттеджные поселки</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#"
+                      >Парогенераторы, увлажнители</a
+                    >
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Пищевая промышленность</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Микроэлектроника</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Фармацевтика, медицина</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Лаборатории</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="menu__item">
+            <div class="menu__header">
+              <span class="menu__title">Промышленная очистка воды</span>
+              <svg class="menu__ico">
+                <use xlink:href="img/sprite.svg#chevronBottom"></use>
+              </svg>
+            </div>
+            <div class="menu__main">
+              <nav class="menu__nav nav">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Блочно модульные станции</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Мембранные дистилляторы</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Электродеионизация</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Обезжелезивание</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Умягчение</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Обратный осмос</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Ультрафильтрация</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#"
+                      >Обслуживание промышленных систем</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Logo -->
+      <div class="header__logo logo">
+        <a class="logo__link" href="index.html">
+          <img
+            src="img/preview.jpg"
+            data-src="img/logo.jpg"
+            alt="image description"
+          />
+        </a>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer__contact contact">
+        <div class="contact__list">
+          <div class="contact__item">
+            <div class="contact__main">
+              <ul class="contact__sublist">
+                <li class="contact__subitem">
+                  <a class="contact__link" href="#">
+                    <symbol class="contact__symbol">
+                      <svg class="contact__ico">
+                        <use xlink:href="img/sprite.svg#mail"></use>
+                      </svg>
+                    </symbol>
+                    <span class="contact__text">info@diasel.ru</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__main">
+              <ul class="contact__sublist">
+                <li class="contact__subitem">
+                  <a class="contact__link" href="#">
+                    <symbol class="contact__symbol">
+                      <svg class="contact__ico">
+                        <use xlink:href="img/sprite.svg#pin"></use>
+                      </svg>
+                    </symbol>
+                    <span class="contact__text"
+                      >г. Москва, ул. Буракова 29б</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__main">
+              <ul class="contact__sublist">
+                <li class="contact__subitem">
+                  <a class="contact__link" href="#">
+                    <symbol class="contact__symbol">
+                      <svg class="contact__ico">
+                        <use xlink:href="img/sprite.svg#phone"></use>
+                      </svg>
+                    </symbol>
+                    <span class="contact__text">+7 (499) 391-39-59</span>
+                  </a>
+                </li>
+                <li class="contact__subitem">
+                  <a class="contact__link" href="#">
+                    <symbol class="contact__symbol"> </symbol>
+                    <span class="contact__text">+7 (929) 987-73-00</span>
+                  </a>
+                </li>
+                <li class="contact__subitem">
+                  <a class="contact__link" href="#">
+                    <symbol class="contact__symbol"> </symbol>
+                    <span class="contact__text">8 (800) 444-50-97</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="contact__footer">
+              <span class="contact__subtext">Бесплатный по России</span>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__header">
+              <span class="contact__title">График работы</span>
+            </div>
+            <div class="contact__main">
+              <ul class="contact__sublist">
+                <li class="contact__subitem">
+                  <a class="contact__link" href="#">
+                    <span class="contact__text">Пн-Пт с 9:00 до 18:00</span>
+                  </a>
+                </li>
+                <li class="contact__subitem">
+                  <a class="contact__link" href="#">
+                    <span class="contact__text">Сб-Вс выходной</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="contact__footer">
+              <span class="contact__subtext"
+                >Обращение принимаем круглосуточно</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Socials -->
+      <div class="footer__socials socials">
+        <ul class="socials__list">
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__ico">
+                <use xlink:href="img/sprite.svg#telegramm"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__ico">
+                <use xlink:href="img/sprite.svg#watsapp"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__ico">
+                <use xlink:href="img/sprite.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" target="_blank">
+              <svg class="socials__ico">
+                <use xlink:href="img/sprite.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer__secondary">
+    <div class="container">
+      <!-- Copyright -->
+      <div class="footer__copyright copyright">
+        <span class="copyright__text"
+          >Системы водоподготовки и водоочистки @2013-2024 diasel.ru</span
+        >
+      </div>
+
+      <!-- Support -->
+      <div class="footer__support support">
+        <ul class="support__list">
+          <li class="support__item">
+            <a class="support__link" href="#">Политика конфиденциальности</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Developer -->
+      <div class="footer__developer developer">
+        <span class="developer__text"
+          >Разработка сайта:
+          <a class="developer__link" href="#" target="_blank">miridea.ru</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      <!-- partial -->
+      <!-- partial:parts/_scripts.html -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/libs.js"></script>
+<script src="js/main.js"></script>
+
+      <!-- partial -->
+    </div>
+  </body>
+</html>
